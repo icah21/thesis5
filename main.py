@@ -5,7 +5,7 @@ from stepper import StepperMotor
 import camera_dashboard  # Assumes camera_dashboard has thread-safe methods
 
 # Initialize the stepper motor
-motor = StepperMotor(pins=[17, 18, 27, 22])  # Match to your wiring
+motor = StepperMotor(pins=[4, 5, 6, 13])  # Match to your wiring
 
 def run_camera_dashboard():
     """
